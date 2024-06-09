@@ -4,7 +4,6 @@ import Navbar from "./Navbar";
 const Home = () => {
   return (
     <div>
-        
         <Navbar/>
         <div class="text-bg-light p-3">
         <div className="container">
@@ -79,11 +78,19 @@ const Home = () => {
             <br></br>
         {/* card end */}
 
-        <h2 class="card-title text-center text-body-tertiary text-font-Sans serif">To Happen....</h2>
+
+
+
+
+        <h3 class="card-title text-center text-body-tertiary text-font-Sans serif">To Happen....</h3>
         <hr class="border border-primary border-1 opacity-10"></hr><br></br>
 
+
+
+
+
         {/* acorousal start */}
-        <div className="row">
+        <div className="row g-3">
             <div className="col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
             <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
@@ -94,6 +101,9 @@ const Home = () => {
             <div class="carousel-inner">
             <div class="carousel-item active">
             <img src="https://fisat.ac.in/wp-content/uploads/2024/03/6251415978860723656_121.jpg" class="d-block w-100" alt="..."></img>
+            </div>
+            <div class="carousel-item">
+            <img src="https://pbs.twimg.com/media/GHpDPDaW0AARDzu.jpg:large" class="d-block w-100" alt="..."></img>
             </div>
             <div class="carousel-item">
             <img src="https://pbs.twimg.com/media/GHldht5b0AAmYNi.jpg" class="d-block w-100" alt="..."></img>
@@ -109,7 +119,6 @@ const Home = () => {
             </button>
             </div>
             </div>
-
             
             <div className="col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
             <div id="carouselExampleIndicators" class="carousel slide">
@@ -120,7 +129,7 @@ const Home = () => {
             </div>
             <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="https://pbs.twimg.com/media/GHpDPDaW0AARDzu.jpg:large" class="d-block w-100" alt="..."></img>
+            <img src="https://bharatham.live/_app/immutable/assets/loader.g_Ojhi57.png" class="d-block w-100" alt="..."></img>
             </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -140,12 +149,20 @@ const Home = () => {
         {/* acorousal end */}
 
 
+
+
+
         <h2 class="card-title text-center  text-primary ">Explore</h2>
+        <br></br>
         <h4 class="card-title text-center text-body-tertiary text-font-Sans serif">Have a Look at What FISAT Has to Offer</h4>
         <hr class="border border-primary border-1 opacity-10"></hr><br></br>
 
+
+
+
+
         {/* card start */}
-        <div className="row">
+        <div className="row g-3">
             <div className="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
             <div class="card">
             <img src="https://fisat.ac.in/wp-content/uploads/2022/06/sports-scaled.jpg" class="card-img-top" alt="..."></img>
@@ -173,8 +190,6 @@ const Home = () => {
             </div>
             </div>
 
-            
-
             <div className="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
             <div class="card">
             <img src="https://fisat.ac.in/wp-content/uploads/2022/07/industry.jpg" class="card-img-top" alt="..."></img>
@@ -188,9 +203,18 @@ const Home = () => {
         <br></br><br></br>
         {/* card end */}
 
+
+
+
+
         <h3 class="card-title text-center  text-primary ">Happenings at FISAT</h3>
+        <br></br>
         <h5 class="card-title text-center text-body-tertiary text-font-Sans serif">A Peek To The Activities In FISAT</h5>
         <hr class="border border-primary border-1 opacity-10"></hr><br></br>
+
+
+
+
 
         {/* card start */}
         <div className="row g-3">
@@ -223,6 +247,8 @@ const Home = () => {
             </div>
             </div>
         {/* card end */}
+
+
         </div>
                 </div>
             </div>
