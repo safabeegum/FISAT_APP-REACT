@@ -1,12 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <div>
-        <nav class="navbar navbar-expand-lg bg-light">     
+        <nav class="navbar navbar-expand-lg bg-tertiary">     
         <div class="container-fluid">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/FISAT_LOGO.png" alt="Logo" width="100" height="80" class="d-inline-block align-text-top"></img>
-        <a class="navbar-brand text-primary">FEDERAL INSTITUTE OF SCIENCE AND TECHNOLOGY</a>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/FISAT_LOGO.png" alt="Logo" width="115" height="90" class="d-inline-block align-text-top"></img>
+        <a class="navbar-brand text-primary fw-bold fs-3">FEDERAL INSTITUTE OF SCIENCE AND TECHNOLOGY</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -14,27 +15,28 @@ const Navbar = () => {
         <ul class="navbar-nav">
 
         <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        <Link class="nav-link active" aria-current="page" to="/">HOME</Link>
         </li>
         
         <li class="nav-item">
-        <a class="nav-link" href="#">ADD STUDENT</a>
+        <Link class="nav-link" to="/add">ADD STUDENT</Link>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="#">SEARCH STUDENT</a>
+        <Link class="nav-link" to="/search">SEARCH STUDENT</Link>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="#">DELETE STUDENT</a>
+        <Link class="nav-link" to="/delete">DELETE STUDENT</Link>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="#">VIEW STUDENT</a>
+        <Link class="nav-link" to="/viewall">VIEW STUDENT</Link>
         </li>
         </ul>
-        <br></br>
         </div>
         </div>
         </nav>
+        <hr class="border border-primary border-1 opacity-50"></hr>
     </div>
+    
   )
 }
 
