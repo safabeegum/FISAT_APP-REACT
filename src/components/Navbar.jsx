@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
-        <nav class="navbar navbar-expand-lg bg-tertiary">     
+        <nav class="navbar navbar-expand-lg bg-tertiary ">     
         <div class="container-fluid">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/FISAT_LOGO.png" alt="Logo" width="115" height="90" class="d-inline-block align-text-top"></img>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/FISAT_LOGO.png" alt="Logo" width="155" height="130" class="d-inline-block align-text-top"></img>
         <a class="navbar-brand text-primary fw-bold fs-3">FEDERAL INSTITUTE OF SCIENCE AND TECHNOLOGY</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
