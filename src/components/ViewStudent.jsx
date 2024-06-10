@@ -60,15 +60,11 @@ const ViewStudent = () => {
                         }
                     )
                 }
-                
-               
                 </table>
-
                 </div>
                 </div>
             </div>
         </div>
-   
   )
 }
 
