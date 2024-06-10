@@ -27,7 +27,7 @@ const AddStudent = () => {
                 if (response.data.status=="success") {
                     alert("Successfully Added")
                     
-                } 
+                }   
                 else {
                     alert("Error")
                 }
